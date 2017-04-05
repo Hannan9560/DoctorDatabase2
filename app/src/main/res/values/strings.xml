@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Doctor Database</string>
+    <string name="empty_field_msg">This field must not be empty</string>
+</resources>

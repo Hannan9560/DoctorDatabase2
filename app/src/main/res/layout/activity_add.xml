@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="net.a6te.lazycoder.doctordatabase.AddActivity">
+
+<EditText
+    android:id="@+id/doctorNameET"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Doctor Name"/>
+<EditText
+    android:id="@+id/doctorDetailsET"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Doctor Details"/>
+    <EditText
+        android:id="@+id/doctorPhoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"/>
+    <EditText
+        android:id="@+id/doctorEmailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+<Button
+    android:id="@+id/addBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ADD Doctor"
+    android:onClick="addDoctor"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="View Doctors"
+    android:onClick="viewDoctor"/>
+
+</LinearLayout>
+

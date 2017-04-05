@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/doctorName" />
+
+    <TextView
+        android:text="Details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorName"
+        android:layout_alignStart="@+id/doctorName"
+        android:layout_marginTop="10dp"
+        android:id="@+id/doctorDetails" />
+
+    <TextView
+        android:text="Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorDetails"
+        android:layout_alignStart="@+id/doctorDetails"
+        android:layout_marginTop="15dp"
+        android:id="@+id/doctorPhone" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/doctorPhone"
+        android:layout_alignStart="@+id/doctorPhone"
+        android:layout_marginTop="5dp"
+        android:id="@+id/doctorEmail" />
+</RelativeLayout>
